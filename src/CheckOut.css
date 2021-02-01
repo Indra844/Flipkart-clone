@@ -1,0 +1,24 @@
+.checkOut {
+  display: flex;
+  margin: 10px;
+}
+.checkOut__page {
+  border: 1px solid white;
+  flex: 0.6;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+.checkOut__page h2 {
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 1px solid gray;
+}
+.checkOut__page button {
+  padding: 14px 60px;
+  margin: 10px;
+  background-color: rgb(255, 166, 0);
+  border: none;
+  float: right;
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.checkOutProduct img {
+  height: 120px;
+  width: 110px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.checkOutProduct {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.product__info {
+  margin: 10px;
+  padding: 10px;
+}
+.product__info button {
+  padding: 10px;
+  background-color: rgb(255, 166, 0);
+  margin-top: 10px;
+  border: none;
+}

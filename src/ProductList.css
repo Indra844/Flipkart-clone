@@ -1,0 +1,42 @@
+.productList {
+  margin: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.productList__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.productList__title {
+  margin: 10px;
+}
+.productList__title h2 {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #111;
+  font-size: 35px;
+}
+.productList__title p {
+  letter-spacing: 1px;
+  color: gray;
+  font-weight: 600;
+  font-size: 15px;
+}
+.view__button {
+  border: none !important;
+  padding: 10px !important;
+  color: white !important;
+  background-color: rgba(8, 8, 235, 0.644) !important ;
+  font-weight: 600 !important;
+  margin: 10px !important;
+}
+.row {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.row::-webkit-scrollbar {
+  display: none;
+}

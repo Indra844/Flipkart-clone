@@ -1,0 +1,124 @@
+.header {
+  background-color: rgba(8, 8, 235, 0.979);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.header__left__icons {
+  display: flex;
+  align-items: center;
+}
+.header__left__icons:hover {
+  cursor: pointer;
+}
+.header__left__imageIcon {
+  height: 40px;
+  object-fit: contain;
+}
+.header__center {
+  flex: 0.8;
+}
+.header__left__search {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  background-color: white;
+}
+.header__left__search input {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+.search__icon {
+  padding: 5px;
+  height: 22px !important;
+  color: rgb(1, 1, 252) !important;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__right__icons {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.login__button {
+  border: none !important;
+  padding: 5px !important;
+  color: rgba(8, 8, 235, 0.644) !important;
+  background-color: white !important ;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+}
+.expand__more {
+  margin-top: 5px !important;
+  color: rgba(255, 255, 255, 0.541);
+}
+.modal__form {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10px;
+  padding: 20px;
+}
+.modal__form input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.login__modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.4;
+  background-color: rgb(35, 35, 233);
+  height: 300px;
+  color: white;
+  margin-right: 10px;
+  padding: 20px;
+}
+.login__text h1,
+p {
+  padding: 5px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.modal__image {
+  height: 100px;
+  background-color: rgb(35, 35, 233) !important;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+.login__btn {
+  margin-top: 20px !important;
+  padding: 10px !important;
+  background-color: rgb(35, 35, 233) !important;
+}
+.login__avatar {
+  height: 70px !important;
+  width: 70px !important;
+}
+.avatar__container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}

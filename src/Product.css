@@ -1,0 +1,33 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.product__image {
+  width: 100%;
+  object-fit: contain;
+  max-height: 100px;
+  margin-right: 10px;
+}
+.product__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product__container:hover {
+  transform: scale(1.06);
+  cursor: pointer;
+}
+.product__container p {
+  padding: 5px;
+}
+.product__title {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #111;
+  padding: 10px;
+}
